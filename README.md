@@ -13,8 +13,7 @@ Still needs work:
 Feel free to contribute and use!!
 
 ### Demo
-
-!(https://amirrezapanahi.github.io/novel-md-demo/)[https://amirrezapanahi.github.io/novel-md-demo/]
+https://amirrezapanahi.github.io/novel-md-demo/
 ---
 ## Install
 
