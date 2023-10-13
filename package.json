@@ -1,11 +1,14 @@
 {
   "name": "novel-md",
-  "version": "1.0.1",
+  "version": "1.0.24",
   "description": "Novel.sh bi-directonal markdown conversion",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
     "@tiptap/extension-image": "^2.1.12",
     "@tiptap/extension-link": "^2.1.12",
     "@tiptap/html": "^2.1.11",
@@ -18,8 +21,7 @@
     "node-html-markdown": "^1.3.0",
     "novel": "^0.1.22",
     "showdown": "^2.1.0",
-    "turndown": "^7.1.2",
-    "typescript": "^4.9.5"
+    "turndown": "^7.1.2"
   },
   "files": [
     "/dist"
@@ -27,5 +29,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/amirrezapanahi/novel-md.git"
-  },
+  }
 }

@@ -13,4 +13,32 @@ Still needs work:
 Feel free to contribute and use!!
 
 ---
+## Install
+
+```
+$ npm install novel-md 
+```
+
 ## Usage
+
+using the !(novel)[https://github.com/steven-tey/novel] editor `Editor` we can get the editor state from the onUpdate callback. From there we can perform the conversion to markdown
+
+```jsx
+  <Editor onUpdate={(editor: Editor ) => {
+      const html: string = editor.getHTML()
+      const md: string = htmlToMarkdown(html)
+  }} />
+```
+
+Here is how to set the default state of the editor to the imported markdown. It is first converted from markdown into html, and then to the editor state
+
+
+```jsx
+  const md = "# Hello world!"
+  const html = markdownToHtml(md)
+  const editorState = htmlToEditorState(html)
+  ...
+  <Editor defaultValue={editorState} />
+  ...
+```
+

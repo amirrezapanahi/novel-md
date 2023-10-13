@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "moduleResolution": "nodenext",
-    "target": "es2015",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "es2018",
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "esModuleInterop": true
   },
   "include": [
     "src/**/*"
